@@ -71,11 +71,6 @@
     color: var(--bs-body-bg) !important;
 }
 
-body {
-    font-family: var(--bs-body-font-family);
-    font-size: var(--bs-body-font-size);
-}
-
 .intro-container {
     background-color: var(--bs-teal);
     padding-top: calc(6rem + 74px);
@@ -86,28 +81,39 @@ body {
     width: 15rem;
 }
 
-.h1 {
-    font-size: 4rem;
-    line-height: 2.75rem;
-}
-
-
-.portfolio-heading {
-    font-size: 2.25rem;
-    line-height: 2rem;
-}
-
 .portfolio {
-    padding-top: 96px;
-    padding-bottom: 96px;
+    padding: 6rem 0;
 }
 
 .portfolio-image {
     border-radius: 0.5rem;
 }
 
-.about-heading {
-    padding-top: 96px;
-    font-size: 2.25rem;
-    line-height: 2rem;
+.about-section {
+    padding: 6rem 0;
+}
+
+.about-content, .footer-content {
+    font-size: 1.25rem;
+}
+
+.btn-xl {
+    padding: 1rem 1.75rem;
+    font-size: 1.25rem;
+}
+
+.btn-outline-light:hover {
+    color: #000 !important;
+}
+
+.footer {
+    padding: 5rem 0;
+}
+
+#footer-link {
+    color: var(--bs-link-color) !important;
+}
+
+#footer-link:hover, .nav-link:hover {
+    color: var(--bs-link-hover-color) !important;
 }
